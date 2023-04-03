@@ -21,11 +21,11 @@ const showList = function () {
     //edit button
     const editButton = document.createElement("button");
     editButton.classList.add("hidden-button");
-    editButton.innerHTML = `<i class="fa-regular fa-pen-to-square" style="color: #000000;" id="edit-button"></i>`;
+    editButton.innerHTML = `<i class="fa-regular fa-pen-to-square" style="color: #000000;"</i>`;
     //delete button
     const deleteButton = document.createElement("button");
     deleteButton.classList.add("hidden-button");
-    deleteButton.innerHTML = `<i class="fa-solid fa-circle-xmark" style="color: #fa2500;" id="delete-button"></i>`;
+    deleteButton.innerHTML = `<i class="fa-solid fa-circle-xmark" style="color: #fa2500;"</i>`;
     //appending the child
     listItem.appendChild(container);
     container.appendChild(editButton);

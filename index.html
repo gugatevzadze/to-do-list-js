@@ -6,22 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
     <link rel="icon" type="image/png" href="images/favicon.ico" />
-    <title>To Do List</title>
+    <title>Todo App</title>
   </head>
   <body>
-    <header>
-      <h1>To Do List</h1>
-    </header>
     <section>
-      <div class="container">
+      <div class="wrapper">
         <div class="task-header">
-          <h2>Task List</h2>
+          <h2>Todo App</h2>
           <p><span id="number-tasks">0</span> Tasks</p>
         </div>
         <div class="input-field">
-          <input type="text" id="task-input" /><button id="task-button">
-            Add Task
-          </button>
+          <input
+            type="text"
+            id="task-input"
+            placeholder="Add new task..."
+          /><button id="task-button">Add Task</button>
           <ul id="task-list"></ul>
         </div>
       </div>
